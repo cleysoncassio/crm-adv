@@ -1,2 +1,106 @@
-# crm-adv
-CRM advocacia
+# CRM advocacia
+
+O CRM Advocacia é uma solução completa para gestão de escritórios de advocacia. Ele permite o gerenciamento eficiente dos processos e tarefas do dia-a-dia, proporcionando mais produtividade e controle.
+
+### Principais Funcionalidades:
+
+#### Cadastro de cliente 👤
+
+#### Financeiro 💰
+
+#### Consulta de processos 📄
+
+#### Agendamento 🗓️
+
+#### Dashboard interativo 📊
+
+Com o CRM Advocacia, seu escritório ganha agilidade e eficiência na gestão para se concentrar no mais importante: defender os direitos de seus clientes!
+
+#### 🚀 Começando
+
+Este projeto visa gerenciar de forma simples e eficiente as demandas de um escritório de advocacia.
+
+#### 📋 Pré-requisitos
+
+Para rodar o código é necessário ter instalado em sua máquina a linguagem Python 3, além do banco de dados MySQL.
+
+Python 3
+Api
+Flask
+Vue.js
+
+#### 🔧 Instalação:
+
+### Backend
+O backend foi desenvolvido em Python.
+
+1. Primeiro, crie um ambiente virtual e ative-o:
+
+```bash
+python3 -m venv venv source venv/bin/activate
+```
+
+2. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Rode as migrações:
+
+```bash
+python manage.py migrate
+```
+4. Execute o servidor localmente:
+
+
+```bash
+python manage.py runserver
+```
+
+O backend estará disponível em http://localhost:8000.
+
+### Frontend
+
+Para acessar o frontend é necessário ter instalado Vue CLI (https://cli.vuejs.org/).
+
+Após isso execute os seguintes comandos no terminal na pasta do projeto:
+O frontend foi desenvolvido em Vue.js.
+
+1. Instale as dependências:
+
+```bash
+npm install
+```
+
+2. Instalar pacotes npm:
+
+```bash
+npm i vuetify bootstrap axios --save
+```
+
+3. Inicializar o projeto:
+
+```bash
+npx vue init webpack .
+```
+
+4. Executar o projeto:
+
+```bash
+npm run dev  # ou yarn serve se preferir ou #
+```
+
+A aplicação será aberta automaticamente em `http://localhost:8080`
+
+O frontend foi desenvolvido em Vue.js.
+
+Pronto! A aplicação completa estará disponível para uso.
+
+Para produção, é recomendado fazer build do Vue e servir o frontend com Nginx ou Apache.
+
+Considerações
+Python 3.9 ou superior
+Node.js 18 ou superior
+Qualquer dúvida, consulte o readme completo do projeto:
+
