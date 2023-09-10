@@ -88,10 +88,12 @@ npx vue init webpack .
 4. Executar o projeto:
 
 ```bash
-npm run dev  # ou yarn serve se preferir ou #
+npm run dev  # ou yarn serve ou se preferir o npm run serve
 ```
 
-A aplicação será aberta automaticamente em `http://localhost:8080`
+Utilizando o ```npm run dev``` ,o hot reloading irá automaticamente atualizar a página quando algum arquivo .vue for alterado, sem a necessidade de reiniciar o servidor. Isso agiliza bastante o desenvolvimento.
+
+A aplicação será aberta automaticamente em `http://localhost:5173`
 
 O frontend foi desenvolvido em Vue.js.
 
