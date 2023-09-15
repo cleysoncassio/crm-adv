@@ -3,18 +3,18 @@ import avatar1 from '@images/avatars/avatar-1.png'
 
 const accountData = {
   avatarImg: avatar1,
-  firstName: 'john',
-  lastName: 'Doe',
-  email: 'johnDoe@example.com',
-  org: 'ThemeSelection',
-  phone: '+1 (917) 543-9876',
-  address: '123 Main St, New York, NY 10001',
-  state: 'New York',
-  zip: '10001',
-  country: 'USA',
-  language: 'English',
+  firstName: 'Cleyson',
+  lastName: 'Silva',
+  email: 'cleysoncassio@gmail.com',
+  org: 'Estácio',
+  phone: '+55 (84) 99805-9947',
+  address: 'Ribeira',
+  state: 'Rio Grande do Norte',
+  zip: '59010-140',
+  country: 'BR',
+  language: 'Português',
   timezone: '(GMT-11:00) International Date Line West',
-  currency: 'USD',
+  currency: 'BRL',
 }
 
 const refInputEl = ref()
@@ -342,7 +342,7 @@ const currencies = [
           <div>
             <VCheckbox
               v-model="isAccountDeactivated"
-              label="I confirm my account deactivation"
+              label="Você confirma a desativação da conta?"
             />
           </div>
 
@@ -351,7 +351,7 @@ const currencies = [
             color="error"
             class="mt-3"
           >
-            Deactivate Account
+            Deletar Conta
           </VBtn>
         </VCardText>
       </VCard>

@@ -35,10 +35,10 @@ const isPasswordVisible = ref(false)
 
       <VCardText class="pt-2">
         <h5 class="text-h5 mb-1">
-          Adventure starts here 🚀
+          Seu Espaço 🚀
         </h5>
         <p class="mb-0">
-          Make your app management easy and fun!
+          Tenha um ótimo trabalho!
         </p>
       </VCardText>
 
@@ -88,7 +88,7 @@ const isPasswordVisible = ref(false)
                   <a
                     href="javascript:void(0)"
                     class="text-primary"
-                  >privacy policy & terms</a>
+                  >política de privacidade</a>
                 </VLabel>
               </div>
 

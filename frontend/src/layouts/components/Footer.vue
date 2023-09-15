@@ -11,16 +11,16 @@
         size="1.25rem"
         class="mx-1"
       />
-      By <a
-        href="https://themeselection.com"
+      Por <a
+        href="https://github.com/cleysoncassio"
         target="_blank"
         rel="noopener noreferrer"
         class="text-primary ms-1"
-      >ThemeSelection</a>
+      >Cleyson Cassio-Eng.Software</a>
     </span>
     <span class="d-flex align-center">
-      Distributed By <a
-        href="https://themewagon.com"
+      Distribuição <a
+        href="https://github.com/cleysoncassio"
         target="_blank"
         rel="noopener noreferrer"
         class="text-primary ms-1"
@@ -31,15 +31,15 @@
       <a
         href="https://themeselection.com/license/"
         target="noopener noreferrer"
-      >License</a>
+      >Licença</a>
       <a
         href="https://themeselection.com/"
         target="noopener noreferrer"
-      >More Themes</a>
+      >Meus Projetos</a>
       <a
         href="https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/documentation/"
         target="noopener noreferrer"
-      >Documentation</a>
+      >Documentação</a>
     </span>
   </div>
 </template>
