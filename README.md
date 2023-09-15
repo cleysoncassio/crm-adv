@@ -2,7 +2,7 @@
 
 O CRM Advocacia é uma solução completa para gestão de escritórios de advocacia. Ele permite o gerenciamento eficiente dos processos e tarefas do dia-a-dia, proporcionando mais produtividade e controle.
 
-### Principais Funcionalidades:
+### Principais Funcionalidades
 
 #### Cadastro de cliente 👤
 
@@ -29,9 +29,10 @@ Api
 Flask
 Vue.js
 
-#### 🔧 Instalação:
+#### 🔧 Instalação
 
 ### Backend
+
 O backend foi desenvolvido em Python.
 
 1. Primeiro, crie um ambiente virtual e ative-o:
@@ -51,18 +52,18 @@ pip install -r requirements.txt
 ```bash
 python manage.py migrate
 ```
-4. Execute o servidor localmente:
 
+4. Execute o servidor localmente:
 
 ```bash
 python manage.py runserver
 ```
 
-O backend estará disponível em http://localhost:8000.
+O backend estará disponível em <http://localhost:8000>.
 
 ### Frontend
 
-Para acessar o frontend é necessário ter instalado Vue CLI (https://cli.vuejs.org/).
+Para acessar o frontend é necessário ter instalado Vue CLI (<https://cli.vuejs.org/>).
 
 Após isso execute os seguintes comandos no terminal na pasta do projeto:
 O frontend foi desenvolvido em Vue.js.
@@ -91,7 +92,7 @@ npx vue init webpack .
 npm run dev  # ou yarn serve ou se preferir o npm run serve
 ```
 
-Utilizando o ```npm run dev``` ,o hot reloading irá automaticamente atualizar a página quando algum arquivo .vue for alterado, sem a necessidade de reiniciar o servidor. Isso agiliza bastante o desenvolvimento.
+Utilizando o `npm run dev` ,o hot reloading irá automaticamente atualizar a página quando algum arquivo .vue for alterado, sem a necessidade de reiniciar o servidor. Isso agiliza bastante o desenvolvimento.
 
 A aplicação será aberta automaticamente em `http://localhost:5173`
 
@@ -105,4 +106,3 @@ Considerações
 Python 3.9 ou superior
 Node.js 18 ou superior
 Qualquer dúvida, consulte o readme completo do projeto:
-
