@@ -35,16 +35,31 @@ Vue.js
 
 O backend foi desenvolvido em Python.
 
-1. Primeiro, crie um ambiente virtual e ative-o:
+1. Instale o virtualenv caso ainda não tenha:
 
 ```bash
-python3 -m venv venv source venv/bin/activate
+pip install virtualenv
+```
+2. Crie um novo virtualenv:
+
+```bash
+virtualenv .venv
 ```
 
-2. Instale as dependências:
+3. Ativar Virtualenv no LINUX
 
 ```bash
-pip install -r requirements.txt
+source .venv/bin/activate
+```
+
+4. Se for Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+```bash
+pipenv sync -d
 ```
 
 3. Rode as migrações:
@@ -83,7 +98,7 @@ npm i vuetify bootstrap axios --save
 3. Inicializar o projeto:
 
 ```bash
-npx vue init webpack .
+npx vue init webpack 
 ```
 
 4. Executar o projeto:
@@ -91,7 +106,7 @@ npx vue init webpack .
 ```bash
 npm run dev  # ou yarn serve ou se preferir o npm run serve
 ```
-
+Comando para abir painel Vue 'vue ui'
 Utilizando o `npm run dev` ,o hot reloading irá automaticamente atualizar a página quando algum arquivo .vue for alterado, sem a necessidade de reiniciar o servidor. Isso agiliza bastante o desenvolvimento.
 
 A aplicação será aberta automaticamente em `http://localhost:5173`
