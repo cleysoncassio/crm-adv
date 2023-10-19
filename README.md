@@ -38,7 +38,14 @@ O backend foi desenvolvido em Python.
 1. Instale o virtualenv caso ainda não tenha:
 
 ```bash
+pip install pip
+```
+
+```bash
 pip install virtualenv
+```
+```bash
+pip install pipenv
 ```
 2. Crie um novo virtualenv:
 
@@ -52,17 +59,22 @@ virtualenv .venv
 source .venv/bin/activate
 ```
 
-4. Se for Windows:
+ Se for Windows:
 
 ```bash
 .venv\Scripts\activate
 ```
 
+5. suba as dependências: 
+
+```bash
+pipenv lock
+```
+
 ```bash
 pipenv sync -d
 ```
-
-3. Rode as migrações:
+5. Rode as migrações: 
 
 ```bash
 python manage.py migrate
