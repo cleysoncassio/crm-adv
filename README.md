@@ -122,3 +122,4 @@ Python 3.9 ou superior
 Node.js 18 ou superior
 Qualquer dúvida, consulte o readme completo do projeto:
 
+[![Build Status](https://app.travis-ci.com/cleysoncassio/crm-adv.svg?branch=master)](https://app.travis-ci.com/cleysoncassio/crm-adv)
